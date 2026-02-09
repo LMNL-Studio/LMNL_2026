@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 4,
+	"VersionName": "6.3.0",
+	"FriendlyName": "Anima Importer",
+	"Description": "Importer for Anima projects",
+	"Category": "Chaos - AXYZ design",
+	"CreatedBy": "Chaos - AXYZ design",
+	"CreatedByURL": "https://www.axyz-design.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "UEAnimaAssets",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "UEAnimaLoader",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Anima4DUnrealPlugin",
+			"Enabled": true
+		}
+	]
+}

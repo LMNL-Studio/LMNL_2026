@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 4,
+	"VersionName": "6.3.0",
+	"FriendlyName": "Anima 4D Plugin",
+	"Description": "Allows streaming of Anima 4D actors in Unreal",
+	"Category": "Chaos - AXYZ design",
+	"CreatedBy": "Chaos - AXYZ design",
+	"CreatedByURL": "https://www.axyz-design.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "Anima4DUnrealPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "Anima4DUnrealAsset",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}
