@@ -79,6 +79,14 @@
 				"Linux",
 				"Mac"
 			]
+		},
+		{
+			"Name": "UEAnimaLoader",
+			"Enabled": false
+		},
+		{
+			"Name": "Anima4DUnrealPlugin",
+			"Enabled": false
 		}
 	]
 }
